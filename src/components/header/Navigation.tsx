@@ -20,8 +20,10 @@ export default function Navigation() {
     <nav className="w-1/3">
       <ul className="flex w-full justify-around">
         {navigation.map((item) => (
-          <li className="text-sm font-bold" key={item.name}>
-            <Link href={item.href} className="hover:text-primary transition-all duration-200">
+          <li className="font-bold" key={item.name}>
+            <Link
+              href={item.href}
+              className="hover:text-primary dark:hover:text-secondary hover:underline transition-all duration-200">
               {item.name}
             </Link>
           </li>

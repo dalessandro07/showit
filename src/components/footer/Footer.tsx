@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import ThemeSelect from '../ThemeSelect'
 
 export default function Header() {
   return (
     <footer className="mt-20">
-      <section className="footer p-10 bg-base-200 text-base-content">
+      <section className="footer p-10 text-base-content">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
@@ -25,8 +26,11 @@ export default function Header() {
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </div>
+
+        <ThemeSelect />
       </section>
-      <section className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+
+      <section className="footer px-10 py-4 border-t text-base-content">
         <div className="grid-flow-col">
           <Image className="w-auto h-auto" src="/favicon.png" alt="ShowIt" width={40} height={40} />
           <p>

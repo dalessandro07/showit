@@ -9,9 +9,9 @@ module.exports = {
     themes: [
       {
         'custom-dark': {
-          primary: '#3b82f6',
+          primary: '#60a5fa',
           secondary: '#facc15',
-          accent: '#4f46e5',
+          accent: '#1d4ed8',
           neutral: '#c4c9bc',
           'base-100': '#121212',
           info: '#3ABFF8',
@@ -20,9 +20,9 @@ module.exports = {
           error: '#f87171'
         },
         'custom-light': {
-          primary: '#2563eb',
+          primary: '#3b82f6',
           secondary: '#facc15',
-          accent: '#4f46e5',
+          accent: '#60a5fa',
           neutral: '#43483e',
           'base-100': '#fffdfa',
           info: '#3ABFF8',
